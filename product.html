@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="dk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+  </head>
+  <body class="product">
+    <header class="mainNav">
+      <a href="index.html">
+        <h1><span class="titleTwo">2</span>Fashionable</h1>
+      </a>
+      <nav>
+        <a href="category.html">Categories</a>
+        <a href="#">Brands</a>
+        <a href="#">Seasons</a>
+      </nav>
+    </header>
+    <main>
+      <ol class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Brands</a></li>
+        <li><a href="productlist.html">Nike</a></li>
+        <li class="productDisplayName">Sahara Team India Fanwear Round Neck Jersey</li>
+      </ol>
+      <img src="https://kea-alt-del.dk/t7/images/webp/1000/1163.webp" alt="Sahara Team India Fanwear Round Neck Jersey" />
+      <section class="purchaseBox">
+        <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+        <p><span class="brandName">brandName</span> | <span class="subCategory">subCategory</span></p>
+        <form>
+          <label
+            >Choose a size
+            <select name="size">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+            </select>
+          </label>
+          <button>Add to basket</button>
+        </form>
+      </section>
+      <section class="info">
+        <h2>Product Information</h2>
+        <dl>
+          <dt>Model name</dt>
+          <dd class="modelName"></dd>
+          <dt>Color</dt>
+          <dd class="baseColour">baseColour</dd>
+          <dt>Inventory number</dt>
+          <dd class="productId">productId</dd>
+        </dl>
+        <!-- WHY DOES THIS NOT WORK!!!!! -->
+        <h1 class="brandName"></h1>
+        <p class="brandBio"></p>
+      </section>
+    </main>
+
+    <script src="js/product.js"></script>
+  </body>
+</html>
