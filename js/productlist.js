@@ -32,6 +32,7 @@ function showProduct(product) {
   copy.querySelector(".brandName").textContent = product.brandname;
   copy.querySelector(".subCategory").textContent = product.subcategory;
   copy.querySelector(".price span").textContent = product.price;
+  copy.querySelector(".category").textContent = product.category;
   //appende
   document.querySelector("main").appendChild(copy);
 }

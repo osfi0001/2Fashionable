@@ -39,8 +39,8 @@ html {
 .categorylist a {
   text-decoration: none;
   padding: 2em;
-  color: white;
-  background-color: var(--cat-background-color);
+  color: black;
+  background-color: grey;
 }
 
 @media screen and (min-width: 800px) {
