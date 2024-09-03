@@ -15,11 +15,10 @@ function showProduct(product) {
   document.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
   document.querySelector(".productId").textContent = product.id;
   document.querySelector(".baseColour").textContent = product.basecolour;
-  document.querySelector(".articleType").textContent = product.articletype;
 
-  //THESE LAST TWO DONT WANT TO WORK
-  document.querySelector(".info p").textContent = product.brandbio;
-  document.querySelector(".info h1").textContent = product.brandname;
+  document.querySelector(".brandBio").textContent = product.brandbio;
+  //THESE LAST DONT WANT TO WORK
+  document.querySelector("#brandName").textContent = product.brandname;
 }
 
 /*
